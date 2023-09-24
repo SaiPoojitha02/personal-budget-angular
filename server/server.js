@@ -8,22 +8,7 @@ const port = 3030;
 
 app.use(cors());
 
-const budget = {
-    myBudget: [
-        {
-            title: 'Eat out',
-            budget: 25
-        },
-        {
-            title: 'Rent',
-            budget: 25
-        },
-        {
-            title: 'Grocery',
-            budget: 50
-        },
-    ]
-};
+
 
 
 const json = fs.readFileSync('Categories.json', 'utf8');
